@@ -1,0 +1,245 @@
+/* Write some CSS below */
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+/* Styles */
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: #101010;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: #101010;
+	font-size: 30px;
+	font-weight: 500;
+
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 18px;
+	width: 90%;
+	
+}
+
+caption{
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 14px;
+	width: 90%;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family:'Roboto Mono', monospace;
+	font-weight: bold;
+	color: #101010;
+	}
+
+
+a:hover {
+	color: #33FF71;
+}
+
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: 100%;
+}
+
+/* Styles end here */
+
+
+/* Custom class design */
+
+
+#hero {
+	width: 100%;
+	height: 200px;
+}
+
+
+.navbar {
+	display: flex;
+	justify-content:space-between;
+	padding: 16px 24px;
+	border: 1px solid #101010;
+	margin: auto;
+}
+
+.navbar .menu {
+    align-items: center;
+	font-family:'Roboto Mono', monospace;
+	color: #101010;
+	word-spacing: 16px;
+	height: 100%;
+}
+
+.hero-box {
+    display: flex;
+	background-color: #E1E4FD;
+	height: 320px;
+	text-align: left;
+	padding: 48px 120px;
+    align-items: center;
+
+}
+
+.logo {
+	width: 100px;
+}
+
+
+.center {
+	padding: 70px 0;
+	border: 3px solid green;
+	text-align: center;
+  }
+
+
+.banner p {
+	text-align: center;
+}
+
+.btn-black {
+	background-color: #101010;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+
+.btn-pink {
+	background-color: #EA33F7;
+	color: #000000;
+	padding: 10px 20px;
+	max-width: 100%;
+	display: block;
+	border-radius: 8px;
+}
+
+.btn-secondary {
+	background-color: #ffffff;
+    border: 1px solid #101010;
+	color: #000000;
+	padding: 10px 20px;
+	max-width: 100%;
+	display: block;
+	border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    
+}
+
+.btn-pink:hover {
+	background-color: #000000;
+} 
+
+.btn-black:hover {
+	background-color: #EA33F7;
+}
+
+.btn-secondary:hover {
+	background-color: #33FF71;
+    color: #000000;
+} 
+
+.container {
+	background-color: #FFFFFF;
+ 	text-align: center;
+ 	height: 600px;
+}
+
+
+.card-white {
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: 1px solid #101010;
+	text-align: left;
+	padding: 40px;
+
+
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 24px;
+	padding: 80px;
+    line-height: 2;
+}
+
+.banner-contact {
+   
+	justify-content: space-between;
+	justify-items: flex-end;
+    background-color: #F8F9F9;
+	height: 40px;
+	text-align: left;
+	padding: 48px 120px;
+	align-items: center;
+}
+
+.social {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #F8F9F9;
+	grid-gap: 16px;
+	padding: 24px;
+    line-height: 2;
+
+}
+
+.social-links {
+    display: flex;
+	justify-content:space-between;
+	padding: 16px;
+	margin: auto;
+    align-items: left;
+}
+
+
+
+.footer {
+	display: flex;
+	justify-content:space-between;
+	padding: 24px 32px;
+	border: 1px solid #101010;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
