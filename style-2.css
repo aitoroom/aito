@@ -1,0 +1,179 @@
+
+
+/* Styles */
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: #101010;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: #101010;
+	font-size: 30px;
+	font-weight: 500;
+
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 18px;
+	width: 90%;
+	
+}
+
+caption{
+	font-family: 'Karla', sans-serif;
+	color: #101010;
+	font-size: 14px;
+	width: 90%;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family:'Roboto Mono', monospace;
+	font-weight: bold;
+	color: #101010;
+	}
+
+
+a:hover {
+	color: #33FF71;
+}
+
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: 100%;
+}
+
+/* Styles end here */
+
+/* Top Navigation */
+.top-nav {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border: 1px solid #101010;
+    margin: auto;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    align-items: center;
+	font-family:'Roboto Mono', monospace;
+	color: #101010;
+	word-spacing: 16px;
+	height: 100%;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+	background-color: #E1E4FD;
+	height: 320px;
+	text-align: left;
+	padding: 40px 120px;
+    align-items: left;
+
+}
+
+/* Banner Title */
+
+.banner-title {
+    padding: 40px 120px;
+    
+}
+
+/* Three Boxes Section */
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #ffffff
+}
+
+
+.box {
+    flex: 0 0 calc(30% - 40px);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #101010;
+    border-radius: 8px;
+    text-align: left;
+
+}
+
+.btn-secondary {
+	background-color: #ffffff;
+    border: 1px solid #101010;
+	color: #000000;
+	padding: 10px 20px;
+	max-width: 100%;
+	display: block;
+	border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+.btn-secondary:hover {
+	background-color: #33FF71;
+    color: #000000;
+} 
+
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
